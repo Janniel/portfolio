@@ -11,8 +11,8 @@ export default function AboutMe() {
           </div>
         </div>
 
-        <div className="containers grid grid-cols-2 mx-auto pt-20 justify-between items-center">
-          <div className="container mx-auto px-32 justify-between">
+        <div className="containers grid grid-cols-1 xl:grid-cols-2 mx-auto pt-20 justify-between items-center">
+          <div className="container order-2 xl:order-1 mx-auto px-32 justify-between">
             <div className="font-mono text-lg text-my-white">
               I’m{" "}
               <strong className="text-faye text-xl">
@@ -52,10 +52,10 @@ export default function AboutMe() {
               knowledge.
             </div>
           </div>
-          <div className="justify-between items-center w-3/5 hover:scale-[1.03] duration-200">
+          <div className="order-1 xl:order-2 justify-between items-center w-3/5 hover:scale-[1.03] mx-auto xl:mx-0 pb-10 xl:pb-0 duration-200">
             <img
               src="src/images/aboutme-pic.jpg"
-              className="rounded-2xl shadow-[0.625rem_0.625rem_0.5rem_0_rgb(18,17,13),-0.5rem_-0.5rem_0.5rem_0_rgb(18,17,13)]"
+              className="rounded-2xl drop-shadow-2xl"
               alt=""
               loading="lazy"
             />

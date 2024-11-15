@@ -11,30 +11,32 @@ export default function Hero() {
 
   return (
     <section className="bg-my-black">
-      <div className="container mx-auto flex px-28 pt-44 pb-44">
-        <div className="w-9/12 content-center space-y-5">
-          <div className="text-my-white font-mono text-4xl">Hey there! I'm</div>
-          <div className=" text-faye font-poppinsBlack font-black text-8xl tracking-tighter">
+      <div className="container max-w mx-auto flex flex-col-reverse lg:flex-row lg:pt-44 pt-14 pb-44">
+        <div className="space-y-5 mx-auto">
+          <div className="text-my-white font-mono 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-xl text-center lg:text-left">
+            Hey there! I'm
+          </div>
+          <div className=" text-faye font-poppinsBlack font-black tracking-tighter 2xl:text-8xl xl:text-7xl lg:text-6xl md:text-5xl text-5xl">
             Janniel De Jesus
           </div>
-          <div className=" text-my-white font-mono text-4xl">
+          <div className=" text-my-white font-mono 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-xl">
             I enjoy building web/mobile apps,
           </div>
-          <div className=" text-my-white font-mono text-4xl">
+          <div className=" text-my-white font-mono 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-xl">
             graphic design, and video editing.
           </div>
-          <div className="pt-5">
+          <div className="2xl:pt-5 xl:pt-3">
             <button
               onClick={handleDownload}
-              className="text-my-white flex text-xl font-doto rounded-full border-2 px-6 py-4 hover:bg-faye hover:border-faye duration-300 hover:scale-110"
+              className="text-my-white flex 2xl:text-2xl xl:text-2xl md:text-xl text-xl font-doto rounded-full border-2 2xl:px-6 xl:px-6 2xl:py-4 xl:py-4 md:px-5 md:py-3 px-5 py-3 hover:bg-faye hover:border-faye duration-300 hover:scale-110 mx-auto lg:mx-0"
             >
               Resume <FileUser></FileUser>
             </button>
           </div>
         </div>
-        <div className="justify-items-center content-center">
+        <div className="justify-items-center object-right content-center mx-auto pb-10">
           <img
-            className="h-96 w-96 rounded-full object-center object-cover"
+            className="2xl:h-96 2xl:w-96 xl:h-[22rem] xl:w-[22rem] lg:h-[20rem] lg:w-[20rem] md:h-[18rem] md:w-[18rem] h-[18rem] w-[18rem] rounded-full hover:scale-[1.03] duration-200 object-cover"
             src="src/images/hero-pic.jpg"
             alt="Janniel Andrei De Jesus"
           ></img>

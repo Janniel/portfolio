@@ -11,12 +11,12 @@ export default function Projects() {
 
   const tabContent = {
     developerTab: (
-      <div className="container grid grid-cols-2 gap-10 px-12">
+      <div className="container grid grid-cols-1 lg:grid-cols-2 gap-10 px-12">
         <Card
           className="max-w bg-my-black drop-shadow-2xl border-none hover:scale-[1.03] duration-200"
           imgSrc="src/images/dev-soar-pic.png"
         >
-          <h5 className="text-3xl font-bold font-mono text-my-white border-b-2 pb-2 flex w-full">
+          <h5 className="text-3xl font-bold font-mono text-my-white border-b-2 pb-2">
             SOAR: Capstone System
           </h5>
           <p className="text-my-white text-lg font-mono">
@@ -120,7 +120,7 @@ export default function Projects() {
     ),
 
     editorTab: (
-      <div className="container grid grid-cols-2 gap-7 px-12">
+      <div className="container grid grid-cols-1 lg:grid-cols-2 gap-7 px-12">
         <div className="max-w container shadow-2xl bg-my-black hover:scale-[1.03] duration-200">
           <iframe
             src="https://www.youtube.com/embed/6CMc6S7jfhs?"
@@ -229,7 +229,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="container flex justify-between items-center px-80 mx-auto pt-12">
+        <div className="container flex justify-between items-center mx-auto pt-12">
           <div className="mx-auto py-2 rounded-xl bg-my-black shadow-[0.625rem_0.625rem_0.5rem_0_rgb(18,17,13),-0.5rem_-0.5rem_1rem_0_rgb(38,37,33)]">
             {tabs.map((tab) => (
               <button
