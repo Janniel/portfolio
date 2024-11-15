@@ -7,20 +7,20 @@ export default function Contact() {
             Let's Talk !
           </h1>
         </div>
-        <div className="container grid grid-cols-1 gap-10 xl:grid-cols-2 pt-20">
+        <div className="container grid grid-cols-1 gap-10 xl:grid-cols-2 pt-20 px-5 md:px-0">
           <div>
-            <h2 className="text-my-white font-tasa tracking-wider text-xl pb-3 border-b-2">
+            <h2 className="text-my-white font-tasa tracking-wider text-lg pb-2 border-b-2 md:text-xl">
               Email
             </h2>
-            <p className="text-my-white font-tasa font-black text-md md:text-3xl xl:text-4xl py-5 hover:scale-[1.03] hover:text-faye duration-200">
+            <p className="text-my-white font-tasa font-black text-sm md:text-3xl xl:text-4xl py-5 hover:scale-[1.03] hover:text-faye duration-200">
               dejesusjannielandrei@gmail.com
             </p>
           </div>
           <div>
-            <h2 className="text-my-white border-b-2 font-tasa tracking-wider text-xl pb-3">
+            <h2 className="text-my-white border-b-2 font-tasa tracking-wider text-lg md:text-xl pb-2">
               Linkedin
             </h2>
-            <p className="text-my-white font-tasa font-black text-md md:text-3xl xl:text-4xl py-5 hover:scale-[1.03] hover:text-faye duration-200">
+            <p className="text-my-white font-tasa font-black text-sm md:text-3xl xl:text-4xl py-5 hover:scale-[1.03] hover:text-faye duration-200">
               https://www.linkedin.com/in/janniel32/
             </p>
           </div>

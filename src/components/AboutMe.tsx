@@ -2,7 +2,7 @@ export default function AboutMe() {
   return (
     <section id="aboutMe" className="bg-my-black">
       <div className="container justify-between mx-auto pt-20 pb-48">
-        <div className="container h-10 pb-2 md:pb-12 flex border-b">
+        <div className="container h-10 pb-2 md:pb-12 px-5 md:px-0 flex border-b">
           <div className="text-my-white text-left text-xl md:text-3xl w-full font-mono">
             About Me
           </div>

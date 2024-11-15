@@ -235,7 +235,7 @@ export default function Projects() {
   return (
     <section id="projects" className="bg-my-black">
       <div className="container justify-between mx-auto pt-32">
-        <div className="container h-10 pb-2 md:pb-12 flex border-b">
+        <div className="container h-10 pb-2 md:pb-12 px-5 md:px-0 flex border-b">
           <div className="text-my-white text-left text-xl md:text-3xl w-full font-mono">
             Projects
           </div>
