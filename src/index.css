@@ -15,7 +15,8 @@
 
   @font-face {
     font-family: "TASA Orbiter";
-    src: url(..\public\assets\fonts\TASAOrbiterVF.woff2) format("woff2");
+    src: url(..\public\assets\fonts\TASAOrbiterVF.woff2) format("woff2"),
+      url(..\public\assets\fonts\TASAOrbiterVF.woff) format("woff");
   }
 
   @font-face {
