@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header id="home" className="bg-my-black p-10 z-50">
       <div className="container mx-auto flex justify-between">
-        <div className="flex text-faye font-tasa font-black 2xl:text-8xl xl:text-8xl lg:text-7xl lg:pt-3 md:text-6xl text-6xl text-center">
+        <div className="flex text-faye text-6xl font-tasa font-black 2xl:text-8xl xl:text-8xl lg:text-7xl lg:pt-3 md:text-6xl text-center">
           Faye
         </div>
         <div className="hidden lg:flex text-my-white font-mono 2xl:text-3xl xl:text-3xl lg:text-xl text-center mx-auto py-10">
