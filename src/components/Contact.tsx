@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact" className="bg-black">
+    <section id="contact" className="bg-[#22211d]">
       <div className="container mx-auto pt-12 pb-48">
         <div className="pt-28 mx-auto text-left">
           <h1 className="text-my-white font-tasa font-bold text-7xl text-center lg:text-left lg:text-9xl tracking-wider">
