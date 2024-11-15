@@ -30,14 +30,14 @@ export default function Hero() {
               onClick={handleDownload}
               className="text-my-white flex 2xl:text-2xl xl:text-2xl md:text-xl text-xl font-doto rounded-full border-2 2xl:px-6 xl:px-6 2xl:py-4 xl:py-4 md:px-5 md:py-3 px-5 py-3 hover:bg-faye hover:border-faye duration-300 hover:scale-110 mx-auto lg:mx-0"
             >
-              Resume <FileUser></FileUser>
+              Resume <FileUser className="my-1 ml-2"></FileUser>
             </button>
           </div>
         </div>
         <div className="justify-items-center object-right content-center mx-auto pb-10">
           <img
             className="2xl:h-96 2xl:w-96 xl:h-[22rem] xl:w-[22rem] lg:h-[20rem] lg:w-[20rem] md:h-[18rem] md:w-[18rem] h-[18rem] w-[18rem] rounded-full hover:scale-[1.03] duration-200 object-cover"
-            src="src/images/hero-pic.jpg"
+            src={import.meta.env.BASE_URL + "src/images/hero-pic.jpg"}
             alt="Janniel Andrei De Jesus"
           ></img>
         </div>

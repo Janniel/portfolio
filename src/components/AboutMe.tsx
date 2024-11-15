@@ -54,7 +54,7 @@ export default function AboutMe() {
           </div>
           <div className="order-1 xl:order-2 justify-between items-center w-3/5 hover:scale-[1.03] mx-auto xl:mx-0 pb-10 xl:pb-0 duration-200">
             <img
-              src="src/images/aboutme-pic.jpg"
+              src={import.meta.env.BASE_URL + "src/images/aboutme-pic.jpg"}
               className="rounded-2xl drop-shadow-2xl"
               alt=""
               loading="lazy"
