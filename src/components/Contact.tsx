@@ -7,7 +7,7 @@ export default function Contact() {
             Let's Talk !
           </h1>
         </div>
-        <div className="container grid grid-cols-1 xl:grid-cols-2 gap-10 pt-20">
+        <div className="container grid grid-cols-1 gap-10 xl:grid-cols-2 pt-20">
           <div>
             <h2 className="text-my-white font-tasa tracking-wider text-3xl pb-3 border-b-2">
               Email
