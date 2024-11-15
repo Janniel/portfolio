@@ -116,7 +116,7 @@ export default function Projects() {
             loop
             autoPlay
             muted
-            src={import.meta.env.BASE_URL + "./assets/video/3 Days Left.mp4"}
+            src={import.meta.env.BASE_URL + "./assets/videos/3 Days Left.mp4"}
             className="rounded-lg hover:scale-[1.03] duration-200"
           ></video>
         </div>
