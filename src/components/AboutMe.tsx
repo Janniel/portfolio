@@ -2,25 +2,28 @@ export default function AboutMe() {
   return (
     <section id="aboutMe" className="bg-my-black">
       <div className="container justify-between mx-auto pt-20 pb-48">
-        <div className="container h-10 pb-12 flex border-b">
-          <div className="text-my-white text-left text-3xl w-full font-mono">
+        <div className="container h-10 pb-2 md:pb-12 flex border-b">
+          <div className="text-my-white text-left text-xl md:text-3xl w-full font-mono">
             About Me
           </div>
-          <div className="text-my-white text-right text-3xl w-full font-mono">
+          <div className="text-my-white text-right text-xl md:text-3xl w-full font-mono">
             02
           </div>
         </div>
 
         <div className="containers grid grid-cols-1 xl:grid-cols-2 mx-auto pt-20 justify-between items-center">
-          <div className="container order-2 xl:order-1 mx-auto px-32 justify-between">
-            <div className="font-mono text-lg text-my-white">
+          <div className="container order-2 xl:order-1 mx-auto md:px-32 px-10 justify-between">
+            <div className="font-mono text-sm md:text-xl text-my-white">
               I’m{" "}
-              <strong className="text-faye text-xl">
+              <strong className="text-faye text-sm md:text-2xl">
                 Janniel Andrei D. De Jesus
               </strong>
               , a graduate of Bulacan State University{" "}
-              <strong className="text-[#61e2de] text-xl">(BulSU)</strong> with a{" "}
-              <strong className="text-faye text-xl">
+              <strong className="text-[#61e2de] text-sm md:text-xl">
+                (BulSU)
+              </strong>{" "}
+              with a{" "}
+              <strong className="text-faye text-sm md:text-xl">
                 Bachelor’s degree in Information Technology, specialized in Web
                 and Mobile Application Development.
               </strong>
@@ -35,20 +38,26 @@ export default function AboutMe() {
               just self-taught throughout senior high school up to today. My
               growth has been significantly shaped by my experiences during my
               internship in{" "}
-              <strong className="text-[#61e2de] text-xl">
+              <strong className="text-[#61e2de] text-sm md:text-xl">
                 Samsung R&D Institute Philippines
               </strong>{" "}
               as a{" "}
-              <strong className="text-faye text-xl">Frontend Developer</strong>,
-              involvement in school organization as{" "}
-              <strong className="text-faye text-xl">Digital Art Manager</strong>{" "}
+              <strong className="text-faye text-sm md:text-xl">
+                Frontend Developer
+              </strong>
+              , involvement in school organization as{" "}
+              <strong className="text-faye text-sm md:text-xl">
+                Digital Art Manager
+              </strong>{" "}
               in{" "}
-              <strong className="text-[#61e2de] text-xl">
+              <strong className="text-[#61e2de] text-sm md:text-xl">
                 BulSU Microsoft Student Community
               </strong>
               , and participation in{" "}
-              <strong className="text-[#61e2de] text-xl">competitions</strong>,
-              all of which have allowed me to refine my skills and expand my
+              <strong className="text-[#61e2de] text-sm md:text-xl">
+                competitions
+              </strong>
+              , all of which have allowed me to refine my skills and expand my
               knowledge.
             </div>
           </div>

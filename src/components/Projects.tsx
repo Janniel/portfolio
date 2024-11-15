@@ -16,10 +16,10 @@ export default function Projects() {
           className="max-w bg-my-black drop-shadow-2xl border-none hover:scale-[1.03] duration-200"
           imgSrc={import.meta.env.BASE_URL + "./assets/images/dev-soar-pic.png"}
         >
-          <h5 className="text-3xl font-bold font-mono text-my-white border-b-2 pb-2">
+          <h5 className="md:text-3xl text-sm font-bold font-mono text-my-white border-b-2 pb-2">
             SOAR: Capstone System
           </h5>
-          <p className="text-my-white text-lg font-mono">
+          <p className="text-my-white md:text-lg text-xs font-mono">
             A Seat-Occupancy and Reservation System using RFID Technology and 3D
             Visualization for Bulacan State University (Team Project).
           </p>
@@ -28,10 +28,10 @@ export default function Projects() {
           className="max-w bg-my-black drop-shadow-2xl border-none hover:scale-[1.03] duration-200"
           imgSrc={import.meta.env.BASE_URL + "./assets/images/dev-ct-pic.png"}
         >
-          <h5 className="text-3xl font-bold font-mono text-my-white border-b-2 pb-2">
+          <h5 className="md:text-3xl text-sm font-bold font-mono text-my-white border-b-2 pb-2">
             CommuniTask
           </h5>
-          <p className="text-my-white text-lg font-mono">
+          <p className="text-my-white md:text-lg text-xs font-mono">
             A mobile digital platform for local businesses and service providers
             that promotes inclusivity and a streamlined user experience (Team
             Project).
@@ -43,10 +43,10 @@ export default function Projects() {
             import.meta.env.BASE_URL + "./assets/images/dev-meconium-pic.png"
           }
         >
-          <h5 className="text-3xl font-bold font-mono text-my-white border-b-2 pb-2">
+          <h5 className="md:text-3xl text-sm font-bold font-mono text-my-white border-b-2 pb-2">
             Meconium
           </h5>
-          <p className="text-my-white text-lg font-mono">
+          <p className="text-my-white md:text-lg text-xs font-mono">
             A mobile application powered by AI and Machine Learning to help
             parents detect potential health issues in their baby's stool from
             its color and texture (Team Idea-Project).
@@ -58,10 +58,10 @@ export default function Projects() {
             import.meta.env.BASE_URL + "./assets/images/dev-portfolio-pic.png"
           }
         >
-          <h5 className="text-3xl font-bold font-mono text-my-white border-b-2 pb-2">
+          <h5 className="md:text-3xl text-sm font-bold font-mono text-my-white border-b-2 pb-2">
             My Portfolio
           </h5>
-          <p className="text-my-white text-lg font-mono">
+          <p className="text-my-white md:text-lg text-xs font-mono">
             My portfolio website built with React, Tailwind CSS, TypeScript, and
             Vite, designed to showcase my skills.
           </p>
@@ -145,10 +145,10 @@ export default function Projects() {
           ></iframe>
 
           <div className="p-6 bg-my-black rounded-b-lg">
-            <h5 className="text-my-white font-mono text-3xl border-b-2 pb-2">
+            <h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
               Tagpo: A Short Film
             </h5>
-            <p className="text-my-white text-lg font-mono py-4">
+            <p className="text-my-white md:text-lg text-xs font-mono py-4">
               An official entry for CBCI Flix Season 2 (2023).
             </p>
           </div>
@@ -163,10 +163,10 @@ export default function Projects() {
           ></iframe>
 
           <div className="p-6 bg-my-black rounded-b-lg">
-            <h5 className="text-my-white font-mono text-3xl border-b-2 pb-2">
+            <h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
               Tagpo: Short Film Trailer
             </h5>
-            <p className="text-my-white text-lg font-mono py-4">
+            <p className="text-my-white md:text-lg text-xs font-mono py-4">
               An official entry for CBCI Flix Season 2 (2023).
             </p>
           </div>
@@ -182,10 +182,10 @@ export default function Projects() {
           ></iframe>
 
           <div className="p-6 bg-my-black rounded-b-lg">
-            <h5 className="text-my-white font-mono text-3xl border-b-2 pb-2">
+            <h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
               Foreign Language Activity (Mandarin)
             </h5>
-            <p className="text-my-white text-lg font-mono py-4">
+            <p className="text-my-white md:text-lg text-xs font-mono py-4">
               A personal vlog activity on FL302 course (2023).
             </p>
           </div>
@@ -201,10 +201,10 @@ export default function Projects() {
           ></iframe>
 
           <div className="p-6 bg-my-black rounded-b-lg">
-            <h5 className="text-my-white font-mono text-3xl border-b-2 pb-2">
+            <h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
               CBCI Lifeline
             </h5>
-            <p className="text-my-white text-lg font-mono py-4">
+            <p className="text-my-white md:text-lg text-xs font-mono py-4">
               A promo/teaser video for CBCI's podcast-like event portion (2020).
             </p>
           </div>
@@ -220,10 +220,10 @@ export default function Projects() {
           ></iframe>
 
           <div className="p-6 bg-my-black rounded-b-lg">
-            <h5 className="text-my-white font-mono text-3xl border-b-2 pb-2">
+            <h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
               Huling Sandali (Music Video)
             </h5>
-            <p className="text-my-white text-lg font-mono py-4">
+            <p className="text-my-white md:text-lg text-xs font-mono py-4">
               A final requirement for a senior high school subject (2019).
             </p>
           </div>
@@ -235,11 +235,11 @@ export default function Projects() {
   return (
     <section id="projects" className="bg-my-black">
       <div className="container justify-between mx-auto pt-32">
-        <div className="container h-10 pb-12 flex border-b">
-          <div className="text-my-white text-left text-3xl w-full font-mono">
+        <div className="container h-10 pb-2 md:pb-12 flex border-b">
+          <div className="text-my-white text-left text-xl md:text-3xl w-full font-mono">
             Projects
           </div>
-          <div className="text-my-white text-right text-3xl w-full font-mono">
+          <div className="text-my-white text-right text-xl md:text-3xl w-full font-mono">
             01
           </div>
         </div>
@@ -249,7 +249,7 @@ export default function Projects() {
             {tabs.map((tab) => (
               <button
                 key={tab.id}
-                className={`px-4 py-2 w-32 mx-auto font-semibold font-doto ${
+                className={`px-4 py-2 w-24 md:w-32 mx-auto font-semibold font-doto text-sm md:text-md ${
                   activeTab === tab.id
                     ? "text-faye"
                     : "text-my-white hover:text-faye duration-300"

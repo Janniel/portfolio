@@ -12,17 +12,17 @@ export default function Hero() {
   return (
     <section className="bg-my-black">
       <div className="container max-w mx-auto flex flex-col-reverse lg:flex-row lg:pt-44 pt-14 pb-44">
-        <div className="space-y-5 mx-auto">
+        <div className="lg:space-y-5 space-y-2 mx-auto">
           <div className="text-my-white font-mono 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-xl text-center lg:text-left">
             Hey there! I'm
           </div>
-          <div className=" text-faye font-poppinsBlack font-black tracking-tighter 2xl:text-8xl xl:text-7xl lg:text-6xl md:text-5xl text-5xl">
+          <div className=" text-faye font-poppinsBlack font-black tracking-tighter 2xl:text-8xl xl:text-7xl lg:text-6xl md:text-5xl text-5xl text-center lg:text-left">
             Janniel De Jesus
           </div>
-          <div className=" text-my-white font-mono 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-xl">
+          <div className=" text-my-white font-mono 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-lg text-center lg:text-left text-pretty">
             I enjoy building web/mobile apps,
           </div>
-          <div className=" text-my-white font-mono 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-xl">
+          <div className=" text-my-white font-mono 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-lg text-center lg:text-left text-pretty">
             graphic design, and video editing.
           </div>
           <div className="2xl:pt-5 xl:pt-3">
@@ -36,7 +36,7 @@ export default function Hero() {
         </div>
         <div className="justify-items-center object-right content-center mx-auto pb-10">
           <img
-            className="2xl:h-96 2xl:w-96 xl:h-[22rem] xl:w-[22rem] lg:h-[20rem] lg:w-[20rem] md:h-[18rem] md:w-[18rem] h-[18rem] w-[18rem] rounded-full hover:scale-[1.03] duration-200 object-cover"
+            className="2xl:h-96 2xl:w-96 xl:h-[22rem] xl:w-[22rem] lg:h-[20rem] lg:w-[20rem] md:h-[18rem] md:w-[18rem] h-[16rem] w-[16rem] rounded-full hover:scale-[1.03] duration-200 object-cover"
             src={import.meta.env.BASE_URL + "./assets/images/hero-pic.jpg"}
             alt="Janniel Andrei De Jesus"
           ></img>
