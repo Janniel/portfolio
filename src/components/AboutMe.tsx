@@ -1,0 +1,67 @@
+export default function AboutMe() {
+  return (
+    <section id="aboutMe" className="bg-my-black">
+      <div className="container justify-between mx-auto pt-20 pb-48">
+        <div className="container h-10 pb-12 flex border-b">
+          <div className="text-my-white text-left text-3xl w-full font-mono">
+            About Me
+          </div>
+          <div className="text-my-white text-right text-3xl w-full font-mono">
+            02
+          </div>
+        </div>
+
+        <div className="containers grid grid-cols-2 mx-auto pt-20 justify-between items-center">
+          <div className="container mx-auto px-32 justify-between">
+            <div className="font-mono text-lg text-my-white">
+              I’m{" "}
+              <strong className="text-faye text-xl">
+                Janniel Andrei D. De Jesus
+              </strong>
+              , a graduate of Bulacan State University{" "}
+              <strong className="text-[#61e2de] text-xl">(BulSU)</strong> with a{" "}
+              <strong className="text-faye text-xl">
+                Bachelor’s degree in Information Technology, specialized in Web
+                and Mobile Application Development.
+              </strong>
+              <br />
+              <br />
+              Beyond my technical background in Information Technology, I am
+              deeply passionate about programming, UI/UX design, graphic design,
+              and video editing. I enjoy how these fields complement each other,
+              allowing me to incorporate creativity across all of them.
+              <br />
+              <br />I mainly developed these skills through college and mostly
+              just self-taught throughout senior high school up to today. My
+              growth has been significantly shaped by my experiences during my
+              internship in{" "}
+              <strong className="text-[#61e2de] text-xl">
+                Samsung R&D Institute Philippines
+              </strong>{" "}
+              as a{" "}
+              <strong className="text-faye text-xl">Frontend Developer</strong>,
+              involvement in school organization as{" "}
+              <strong className="text-faye text-xl">Digital Art Manager</strong>{" "}
+              in{" "}
+              <strong className="text-[#61e2de] text-xl">
+                BulSU Microsoft Student Community
+              </strong>
+              , and participation in{" "}
+              <strong className="text-[#61e2de] text-xl">competitions</strong>,
+              all of which have allowed me to refine my skills and expand my
+              knowledge.
+            </div>
+          </div>
+          <div className="justify-between items-center w-3/5 hover:scale-[1.03] duration-200">
+            <img
+              src="src/images/aboutme-pic.jpg"
+              className="rounded-2xl shadow-[0.625rem_0.625rem_0.5rem_0_rgb(18,17,13),-0.5rem_-0.5rem_0.5rem_0_rgb(18,17,13)]"
+              alt=""
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

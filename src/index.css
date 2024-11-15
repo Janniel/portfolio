@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Poppins";
+    src: url(assets\fonts\Poppins-Regular.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: "Poppins Black";
+    src: url(assets\fonts\Poppins-Blacks.woff) format("woff");
+  }
+
+  @font-face {
+    font-family: "TASA Orbiter";
+    src: url(assets\fonts\TASAOrbiterVF.woff2) format("woff2");
+  }
+
+  @font-face {
+    font-family: "Doto";
+    src: url(assets\fonts\Doto_Rounded-Black.woff) format("woff");
+  }
+}
