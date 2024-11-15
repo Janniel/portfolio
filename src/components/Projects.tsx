@@ -14,7 +14,7 @@ export default function Projects() {
       <div className="container grid grid-cols-1 lg:grid-cols-2 gap-10 px-12">
         <Card
           className="max-w bg-my-black drop-shadow-2xl border-none hover:scale-[1.03] duration-200"
-          imgSrc={import.meta.env.BASE_URL + "src/images/dev-soar-pic.png"}
+          imgSrc={import.meta.env.BASE_URL + "./assets/images/dev-soar-pic.png"}
         >
           <h5 className="text-3xl font-bold font-mono text-my-white border-b-2 pb-2">
             SOAR: Capstone System
@@ -26,7 +26,7 @@ export default function Projects() {
         </Card>
         <Card
           className="max-w bg-my-black drop-shadow-2xl border-none hover:scale-[1.03] duration-200"
-          imgSrc={import.meta.env.BASE_URL + "src/images/dev-ct-pic.png"}
+          imgSrc={import.meta.env.BASE_URL + "./assets/images/dev-ct-pic.png"}
         >
           <h5 className="text-3xl font-bold font-mono text-my-white border-b-2 pb-2">
             CommuniTask
@@ -39,7 +39,9 @@ export default function Projects() {
         </Card>
         <Card
           className="max-w bg-my-black drop-shadow-2xl border-none hover:scale-[1.03] duration-200"
-          imgSrc={import.meta.env.BASE_URL + "src/images/dev-meconium-pic.png"}
+          imgSrc={
+            import.meta.env.BASE_URL + "./assets/images/dev-meconium-pic.png"
+          }
         >
           <h5 className="text-3xl font-bold font-mono text-my-white border-b-2 pb-2">
             Meconium
@@ -52,7 +54,9 @@ export default function Projects() {
         </Card>
         <Card
           className="max-w bg-my-black drop-shadow-2xl border-none hover:scale-[1.03] duration-200"
-          imgSrc={import.meta.env.BASE_URL + "src/images/dev-portfolio-pic.png"}
+          imgSrc={
+            import.meta.env.BASE_URL + "./assets/images/dev-portfolio-pic.png"
+          }
         >
           <h5 className="text-3xl font-bold font-mono text-my-white border-b-2 pb-2">
             My Portfolio
@@ -69,7 +73,9 @@ export default function Projects() {
       <div className="container grid grid-cols-3 grid-flow-col gap-6 px-12">
         <div>
           <img
-            src={import.meta.env.BASE_URL + "src/images/design-ggdn-pic.png"}
+            src={
+              import.meta.env.BASE_URL + "./assets/images/design-ggdn-pic.png"
+            }
             alt=""
             loading="lazy"
             className="rounded-lg hover:scale-[1.03] duration-200"
@@ -77,7 +83,9 @@ export default function Projects() {
         </div>
         <div className="col-start-2 rounded-lg">
           <img
-            src={import.meta.env.BASE_URL + "src/images/design-msc-pic.jpg"}
+            src={
+              import.meta.env.BASE_URL + "./assets/images/design-msc-pic.jpg"
+            }
             alt=""
             loading="lazy"
             className="rounded-lg hover:scale-[1.03] duration-200"
@@ -85,7 +93,9 @@ export default function Projects() {
         </div>
         <div className="row-start-1 col-start-3">
           <img
-            src={import.meta.env.BASE_URL + "src/images/design-soar-pic.png"}
+            src={
+              import.meta.env.BASE_URL + "./assets/images/design-soar-pic.png"
+            }
             alt=""
             loading="lazy"
             className="rounded-lg hover:scale-[1.03] duration-200"
@@ -93,7 +103,9 @@ export default function Projects() {
         </div>
         <div className="row-start-2 col-start-3 row-span-2">
           <img
-            src={import.meta.env.BASE_URL + "src/images/design-banner-pic.png"}
+            src={
+              import.meta.env.BASE_URL + "./assets/images/design-banner-pic.png"
+            }
             alt=""
             loading="lazy"
             className="rounded-lg hover:scale-[1.03] duration-200"
@@ -104,14 +116,15 @@ export default function Projects() {
             loop
             autoPlay
             muted
-            src={import.meta.env.BASE_URL + "src/videos/3 Days Left.mp4"}
+            src={import.meta.env.BASE_URL + "./assets/video/3 Days Left.mp4"}
             className="rounded-lg hover:scale-[1.03] duration-200"
           ></video>
         </div>
         <div className="row-start-3 col-start-1 col-span-2">
           <img
             src={
-              import.meta.env.BASE_URL + "src/images/design-grad-tarp-pic.png"
+              import.meta.env.BASE_URL +
+              "./assets/images/design-grad-tarp-pic.png"
             }
             alt=""
             loading="lazy"

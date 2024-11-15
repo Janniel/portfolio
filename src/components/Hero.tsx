@@ -2,7 +2,7 @@ import { ChevronDown, FileUser } from "lucide-react";
 
 export default function Hero() {
   const handleDownload = () => {
-    const fileURL = "public/De Jesus, Janniel Andrei RESUME.pdf";
+    const fileURL = "./assets/pdfs/De Jesus, Janniel Andrei RESUME.pdf";
     const link = document.createElement("a");
     link.href = fileURL;
     link.download = "De Jesus, Janniel Andrei - RESUME.pdf";
@@ -37,7 +37,7 @@ export default function Hero() {
         <div className="justify-items-center object-right content-center mx-auto pb-10">
           <img
             className="2xl:h-96 2xl:w-96 xl:h-[22rem] xl:w-[22rem] lg:h-[20rem] lg:w-[20rem] md:h-[18rem] md:w-[18rem] h-[18rem] w-[18rem] rounded-full hover:scale-[1.03] duration-200 object-cover"
-            src={import.meta.env.BASE_URL + "src/images/hero-pic.jpg"}
+            src={import.meta.env.BASE_URL + "./assets/images/hero-pic.jpg"}
             alt="Janniel Andrei De Jesus"
           ></img>
         </div>
