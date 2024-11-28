@@ -2,7 +2,7 @@ import { ChevronDown, FileUser } from "lucide-react";
 
 export default function Hero() {
   const handleDownload = () => {
-    const fileURL = "./assets/pdfs/De Jesus, Janniel Andrei RESUME.pdf";
+    const fileURL = "./assets/pdfs/RESUME_DeJesus-Janniel-Andrei.pdf";
     const link = document.createElement("a");
     link.href = fileURL;
     link.download = "De Jesus, Janniel Andrei - RESUME.pdf";
