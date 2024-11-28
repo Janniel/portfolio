@@ -1,4 +1,5 @@
-import { Card } from "flowbite-react";
+import { Card, Tooltip } from "flowbite-react";
+import { Figma, Github } from "lucide-react";
 import { useState } from "react";
 
 export default function Projects() {
@@ -16,8 +17,20 @@ export default function Projects() {
           className="max-w bg-my-black drop-shadow-2xl border-none hover:scale-[1.03] duration-200"
           imgSrc={import.meta.env.BASE_URL + "./assets/images/dev-soar-pic.png"}
         >
-          <h5 className="md:text-3xl text-sm font-bold font-mono text-my-white border-b-2 pb-2">
+          <h5 className="md:text-3xl text-sm grid grid-cols-1 grid-rows-1 grid-flow-col font-bold font-mono text-my-white border-b-2 pb-2">
             SOAR: Capstone System
+            <a
+              href="https://github.com/Janniel/3D-Reservation-System"
+              target="_blank"
+              aria-label="Github"
+            >
+              <Tooltip
+                content="View in Github"
+                className="col-start-2 whitespace-nowrap"
+              >
+                <Github className="size-4 md:size-6 lg:size-6 xl:size-7 2xl:size-7 mx-2" />
+              </Tooltip>
+            </a>
           </h5>
           <p className="text-my-white md:text-lg text-xs font-mono">
             A Seat-Occupancy and Reservation System using RFID Technology and 3D
@@ -28,8 +41,32 @@ export default function Projects() {
           className="max-w bg-my-black drop-shadow-2xl border-none hover:scale-[1.03] duration-200"
           imgSrc={import.meta.env.BASE_URL + "./assets/images/dev-ct-pic.png"}
         >
-          <h5 className="md:text-3xl text-sm font-bold font-mono text-my-white border-b-2 pb-2">
+          <h5 className="md:text-3xl text-sm grid grid-cols-1 grid-rows-1 grid-flow-col font-bold font-mono text-my-white border-b-2 pb-2">
             CommuniTask
+            <a
+              href="https://github.com/OpenSoars-Group/New-CommuniTask"
+              target="_blank"
+              aria-label="Github"
+            >
+              <Tooltip
+                content="View in Github"
+                className="col-start-2 whitespace-nowrap"
+              >
+                <Github className="size-4 md:size-6 lg:size-6 xl:size-7 2xl:size-7 mx-2" />
+              </Tooltip>
+            </a>
+            <a
+              href="https://www.figma.com/design/bAJ8XE300euSffHQZI1Evz/CommuniTask?node-id=0-1&node-type=canvas&t=lRyWqYCX5rUzTAJL-0"
+              target="_blank"
+              aria-label="Figma"
+            >
+              <Tooltip
+                content="View in Figma"
+                className="col-start-2 whitespace-nowrap"
+              >
+                <Figma className="size-4 md:size-6 lg:size-6 xl:size-7 2xl:size-7 mx-2" />
+              </Tooltip>
+            </a>
           </h5>
           <p className="text-my-white md:text-lg text-xs font-mono">
             A mobile digital platform for local businesses and service providers
@@ -43,8 +80,20 @@ export default function Projects() {
             import.meta.env.BASE_URL + "./assets/images/dev-meconium-pic.png"
           }
         >
-          <h5 className="md:text-3xl text-sm font-bold font-mono text-my-white border-b-2 pb-2">
+          <h5 className="md:text-3xl text-sm grid grid-cols-1 grid-rows-1 grid-flow-col font-bold font-mono text-my-white border-b-2 pb-2">
             Meconium
+            <a
+              href="https://www.figma.com/design/AaFYzDXWgyLz3bbyTkyHrt/Meconium-Prototype?node-id=0-1&node-type=canvas&t=3nqzyHuMxuLjz8ME-0"
+              target="_blank"
+              aria-label="Figma"
+            >
+              <Tooltip
+                content="View in Figma"
+                className="col-start-2 whitespace-nowrap"
+              >
+                <Figma className="size-4 md:size-6 lg:size-6 xl:size-7 2xl:size-7 mx-2" />
+              </Tooltip>
+            </a>
           </h5>
           <p className="text-my-white md:text-lg text-xs font-mono">
             A mobile application powered by AI and Machine Learning to help
@@ -58,8 +107,20 @@ export default function Projects() {
             import.meta.env.BASE_URL + "./assets/images/dev-portfolio-pic.png"
           }
         >
-          <h5 className="md:text-3xl text-sm font-bold font-mono text-my-white border-b-2 pb-2">
+          <h5 className="md:text-3xl text-sm grid grid-cols-1 grid-rows-1 grid-flow-col font-bold font-mono text-my-white border-b-2 pb-2">
             My Portfolio
+            <a
+              href="https://github.com/Janniel/portfolio"
+              target="_blank"
+              aria-label="Github"
+            >
+              <Tooltip
+                content="View in Github"
+                className="col-start-2 whitespace-nowrap"
+              >
+                <Github className="size-4 md:size-6 lg:size-6 xl:size-7 2xl:size-7 mx-2" />
+              </Tooltip>
+            </a>
           </h5>
           <p className="text-my-white md:text-lg text-xs font-mono">
             My portfolio website built with React, Tailwind CSS, TypeScript, and
