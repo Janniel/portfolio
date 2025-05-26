@@ -199,6 +199,25 @@ export default function Projects() {
 			<div className="container grid grid-cols-1 lg:grid-cols-2 gap-7 px-12">
 				<div className="max-w container shadow-2xl bg-my-black hover:scale-[1.03] duration-200">
 					<iframe
+						src="https://www.youtube.com/embed/JqDbi0bIUYE?si=mNFH85MTzAaH-zhl"
+						frameBorder="0"
+						className="w-full aspect-video rounded-t-lg"
+						allowFullScreen
+					></iframe>
+
+					<div className="p-6 bg-my-black rounded-b-lg">
+						<h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
+							Add 30 YARDS To Your Drive Faster With This Trick!
+						</h5>
+						<p className="text-my-white md:text-lg text-xs font-mono py-4">
+							This Video is a trial task I practiced on to improve my skills
+							(2025).
+						</p>
+					</div>
+				</div>
+
+				<div className="max-w container shadow-2xl bg-my-black hover:scale-[1.03] duration-200">
+					<iframe
 						src="https://youtube.com/embed/T9abKMm-5N4?si=gQtDdBAB_x_vhf5W"
 						frameBorder="0"
 						className="w-full aspect-video rounded-t-lg"
