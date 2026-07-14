@@ -25,6 +25,23 @@ export default function Hero() {
 					<div className=" text-my-white font-mono 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-xl text-lg text-center lg:text-left text-pretty">
 						programming, graphic design, and video editing.
 					</div>
+					<br />
+					<div className=" text-my-white font-light  2xl:text-2xl xl:text-3xl lg:text-2xl md:text-xl text-lg text-center lg:text-left text-pretty">
+						<i>
+							Worked professionally with a{" "}
+							<a
+								href="https://www.youtube.com/@AylexGolf"
+								target="_blank"
+								title="Aylex Golf Academy"
+							>
+								<u>golf-focused Youtube channel</u>
+							</a>
+							,<br></br>
+							producing 40+ long-form videos and numerous short-form clips
+							<br></br>that collectively generated over 2 million views.
+						</i>
+					</div>
+					<br></br>
 					<div className="2xl:pt-5 xl:pt-3">
 						<button
 							onClick={handleDownload}

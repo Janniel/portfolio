@@ -3,7 +3,7 @@ import { Figma, Github } from "lucide-react";
 import { useState } from "react";
 
 export default function Projects() {
-	const [activeTab, setActiveTab] = useState("developerTab");
+	const [activeTab, setActiveTab] = useState("editorTab");
 	const tabs = [
 		{ id: "developerTab", label: "Developer" },
 		{ id: "designTab", label: "Design" },
@@ -199,7 +199,7 @@ export default function Projects() {
 			<div className="container grid grid-cols-1 lg:grid-cols-2 gap-7 px-12">
 				<div className="max-w container shadow-2xl bg-my-black hover:scale-[1.03] duration-200">
 					<iframe
-						src="https://www.youtube.com/embed/JqDbi0bIUYE?si=mNFH85MTzAaH-zhl"
+						src="https://www.youtube.com/embed/FLBPj2MiNAM?si=z_l_XK3daTdZckyh"
 						frameBorder="0"
 						className="w-full aspect-video rounded-t-lg"
 						allowFullScreen
@@ -207,11 +207,106 @@ export default function Projects() {
 
 					<div className="p-6 bg-my-black rounded-b-lg">
 						<h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
-							Add 30 YARDS To Your Drive Faster With This Trick!
+							You'll Never Slice or Hook Again After This!
 						</h5>
 						<p className="text-my-white md:text-lg text-xs font-mono py-4">
-							This Video is a trial task I practiced on to improve my skills
-							(2025).
+							Highest performing golf sponsored video that I worked on.<br></br>
+							Role: Video Editor | Views: 300k+
+						</p>
+					</div>
+				</div>
+
+				<div className="max-w container shadow-2xl bg-my-black hover:scale-[1.03] duration-200">
+					<iframe
+						src="https://www.youtube.com/embed/ivTHCWxA-N8?si=-CG7XQyyVz88LoLO"
+						frameBorder="0"
+						className="w-full aspect-video rounded-t-lg"
+						allowFullScreen
+					></iframe>
+
+					<div className="p-6 bg-my-black rounded-b-lg">
+						<h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
+							This Driver TRICK Added 50 Yards to her Swing!
+						</h5>
+						<p className="text-my-white md:text-lg text-xs font-mono py-4">
+							One of the highest performing golf videos I worked on.<br></br>
+							Role: Video Editor | Views: 300k+
+						</p>
+					</div>
+				</div>
+
+				<div className="max-w container shadow-2xl bg-my-black hover:scale-[1.03] duration-200">
+					<iframe
+						src="https://www.youtube.com/embed/tv13htWoKtY?si=h_YRWmK3PzCMhEcK"
+						frameBorder="0"
+						className="w-full aspect-video rounded-t-lg"
+						allowFullScreen
+					></iframe>
+
+					<div className="p-6 bg-my-black rounded-b-lg">
+						<h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
+							This ONE Driver Trick Instantly Adds 50 Yards
+						</h5>
+						<p className="text-my-white md:text-lg text-xs font-mono py-4">
+							One of the highest performing golf videos I worked on.<br></br>
+							Role: Video Editor | Views: 300k+
+						</p>
+					</div>
+				</div>
+
+				<div className="max-w container shadow-2xl bg-my-black hover:scale-[1.03] duration-200">
+					<iframe
+						src="https://www.youtube.com/embed/fvUcnExWyeU?si=w01rkq_ICskv38ae"
+						frameBorder="0"
+						className="w-full aspect-video rounded-t-lg"
+						allowFullScreen
+					></iframe>
+
+					<div className="p-6 bg-my-black rounded-b-lg">
+						<h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
+							Why Your Driver Swing Is DESTROYING Your Irons (Fix This Fast!)
+						</h5>
+						<p className="text-my-white md:text-lg text-xs font-mono py-4">
+							One of the highest performing golf videos I worked on.<br></br>
+							Role: Video Editor | Views: 200k+
+						</p>
+					</div>
+				</div>
+
+				<div className="max-w container shadow-2xl bg-my-black hover:scale-[1.03] duration-200">
+					<iframe
+						src="https://www.youtube.com/embed/3XA8gg1nD5M?si=084Ccplda9fi1H52"
+						frameBorder="0"
+						className="w-full aspect-video rounded-t-lg"
+						allowFullScreen
+					></iframe>
+
+					<div className="p-6 bg-my-black rounded-b-lg">
+						<h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
+							Stop Rotating Your Wrists! (The Key to Dead Straight Irons)
+						</h5>
+						<p className="text-my-white md:text-lg text-xs font-mono py-4">
+							One of the highest performing golf videos I worked on.<br></br>
+							Role: Video Editor | Views: 150k+
+						</p>
+					</div>
+				</div>
+
+				<div className="max-w container shadow-2xl bg-my-black hover:scale-[1.03] duration-200">
+					<iframe
+						src="https://www.youtube.com/embed/B7yooxZ9jM0?si=x5iSmDyEVYsfcHdY"
+						frameBorder="0"
+						className="w-full aspect-video rounded-t-lg"
+						allowFullScreen
+					></iframe>
+
+					<div className="p-6 bg-my-black rounded-b-lg">
+						<h5 className="text-my-white font-mono md:text-3xl text-sm border-b-2 pb-2">
+							Ultimate Golf Hack: How to Hit Farther Instantly with Less Effort
+						</h5>
+						<p className="text-my-white md:text-lg text-xs font-mono py-4">
+							One of the highest performing golf videos I worked on.<br></br>
+							Role: Video Editor | Views: 150k+
 						</p>
 					</div>
 				</div>
