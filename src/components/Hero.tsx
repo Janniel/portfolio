@@ -33,10 +33,11 @@ export default function Hero() {
 								href="https://www.youtube.com/@AylexGolf"
 								target="_blank"
 								title="Aylex Golf Academy"
+								className=" hover:text-faye duration-200"
 							>
-								<u>golf-focused Youtube channel</u>
+								<u>golf-focused Youtube channel,</u>
 							</a>
-							,<br></br>
+							<br></br>
 							producing 40+ long-form videos and numerous short-form clips
 							<br></br>that collectively generated over 2 million views.
 						</i>
